@@ -1,0 +1,239 @@
+body{
+	/*background-color:skyblue;
+			background-image:url(BG.avif);
+            background-repeat: no-repeat;
+			 background-size:100%;
+			backdrop-filter: blur(14px);
+			background-attachment: fixed;
+			animation: AN 15s infinite;
+			animation-delay: 5s;
+     
+		}@keyframes AN{
+			0%{ background-image:url(BG.avif); }
+			40%{background-image:url(lll.png);  }
+			70%{ background-image:url(bg.jpeg); }
+			100%{ background-image:url(G.gif); }
+		}*/
+	.sidenav{
+		height:800px;
+		width:20%;
+		left: 0;
+		top: 0;
+        position: fixed;
+		overflow-x: hidden;
+		background-color:dimgray;
+		z-index: 1;
+		transition: 0.8s;
+	}
+	.sidenav a{
+		color: black;
+		font-size: 30px;
+		text-decoration: none;
+		margin: 10px;
+	padding: 15px 10px 15px;
+		display: block;
+		font-family: sans-serif,cursive;
+	}
+/*.sidenav .closebtn {
+	font-size: 45px;
+	right: 25;
+	top: 0;
+	padding: 0;
+	margin-left:75%;
+}*/
+.sidenav a:hover{
+color:white;
+background-color: gray;
+}/*.logo{
+	height:100px;
+	width:80%;
+	margin-left: 20%;
+	position: fixed;
+	display: inline-block;	
+	right: 0;
+	left: 0;
+	background-color: darkred;
+
+}.lo*/
+
+header{
+	height: 100px;
+/*	border:2px solid black;*/
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	background-color: skyblue;
+	width:80%;
+	margin-left:20%;
+	z-index: 1;
+
+
+
+}#Desktop-nav a{
+	/*
+	color: black;
+	margin-left: 30%;
+	display: inline-block;*/
+	color: black;
+	text-decoration: none;
+	padding: 25px;
+	font-size: 25px;
+	float: right;
+	top: 35px;
+	font-family: sans-serif,cursive;
+
+
+}#Desktop-nav a:hover{
+	text-decoration: underline;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+
+}.section1,.section2,.section4{
+	
+	width: 80%;
+	height:800px;	
+	margin-left:20%;
+	position: relative;
+	/*background-image:url(BG.avif);
+	 background-repeat: no-repeat;
+			 background-size:100%;*/
+/*			 background-color: black;*/
+
+}.section1-box{
+height:350px;
+width: 300px;
+/*display: block;*/
+float: right;
+border: 3px solid; darkred;
+margin:30px 40px;
+box-shadow: 2px 3px 10px darkblue;
+border-radius:0;
+
+}.section3{
+	height: 1200px;
+	width: 80%;
+	margin-left: 20%;
+	position: relative;
+}
+.section3 .section1-box img{
+	align-content: center;
+	height: 80%;
+	width: 80%;
+	margin: 18px 28px;
+}
+.section5{
+	width: 80%;
+	height:150px;	
+	margin-left:20%;
+	position: relative;
+	background-color:khaki;
+	margin-top: 30px;
+	top: 40px;
+	color: black;position: relative;
+	
+}
+
+
+
+
+
+	 @media screen and (max-width:380px){
+	.sidenav{
+		height:800px;
+		width:20%;
+		left: 0;
+		top: 0;
+        position: fixed;
+		overflow-x: hidden;
+		background-color:dimgray;
+		z-index: 1;
+		transition: 0.8s;
+		display: none;
+	}
+	.sidenav a{
+		color: black;
+		font-size: 30px;
+		text-decoration: none;
+		margin: 10px;
+	padding: 15px 10px 15px;
+		display: block;
+		font-family: sans-serif,cursive;
+	}.logo img{
+		display: inline-block;
+	}
+header{
+	height:50px;
+width: 100%;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	background-color: skyblue;
+	z-index: 1;
+	display:inline-block;
+
+
+
+}#Desktop-nav{
+	width: 100%;
+	display: inline-block;
+}
+#Desktop-nav a{
+	font-size: 15px;
+	padding: 15px;
+	top: 35px;
+	float:left ;
+	display: block;
+/*	background-color: dimgray;*/
+
+
+}#Desktop-nav a:hover{
+	text-decoration: underline;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	background-color: transparent;
+	background-color: dimgray;
+
+}.section1,.section2,.section4{
+	
+	width: 80%;
+	height:800px;	
+	margin-left:28%;
+	position: relative;
+}.section1-box{
+height:350px;
+width: 300px;
+/*display: block;*/
+float: right;
+border: 3px solid; darkred;
+margin:30px 40px;
+box-shadow: 2px 3px 10px darkblue;
+border-radius:0;
+
+}.section3{
+	height: 1200px;
+	width: 80%;
+margin-left:28%;
+	position: relative;
+}
+.section3 .section1-box img{
+	align-content: center;
+	height: 80%;
+	width: 80%;
+	margin: 18px 28px;
+	border-radius:10px 5px;
+}
+.section5{
+	width:100%;
+	height:120px;	
+	background-color:khaki;
+	display:inline-block;
+	color: black;
+	top: 0;
+	margin-left: 2px;
+align-content: center;
+	
+}#menubtn{
+	display: none;
+}
+}
